@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+:root{
+  --Red: #c73a0f;
+  --Green: #1ea475;
+
+  --Rose-50: #fcf9f7;
+  --Rose-100: #f4edeb;
+  --Rose-300: #c9aea6;
+  --Rose-400: #ad8985;
+  --Rose-500: #87635a;
+  --Rose-900: #260f08;
+}
+
+body{
+  font-family: "Red Hat Text", sans-serif;
+  /* Weights: 400, 600, 700 */
+  background-color: #fcf9f7;
+}
+
+/* - Font size (product names): 16px */
