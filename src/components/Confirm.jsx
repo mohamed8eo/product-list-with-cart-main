@@ -5,7 +5,7 @@ const Confirm = ({ items, onRestart }) => {
   const total = items?.reduce((sum, item) => sum + (item.price * item.quantity), 0) || 0;
 
   return (
-    <div className='bg-white py-[25px] px-[30px] sm:w-[500px] rounded-[7px] sm:relative absolute  bottom-0 w-[100%]'>
+    <div className='bg-white pl-[20px] sm:w-[500px] rounded-[7px] sm:relative absolute  bottom-0 w-[100%]  scroll'>
       <div className='mb-4'>
         <img src="./assets/images/icon-order-confirmed.svg" alt="" />
       </div>
